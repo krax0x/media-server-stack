@@ -48,6 +48,7 @@ services:
 
   seerr:
     image: ghcr.io/seerr-team/seerr:latest
+    init: true
     container_name: seerr
     networks: 
       - media
